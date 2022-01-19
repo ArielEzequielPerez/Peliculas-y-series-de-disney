@@ -1,61 +1,122 @@
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\appsettings.Development.json
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\appsettings.json
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\PeliculasSeries.exe
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\PeliculasSeries.deps.json
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\PeliculasSeries.runtimeconfig.json
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\PeliculasSeries.runtimeconfig.dev.json
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\PeliculasSeries.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\ref\PeliculasSeries.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\PeliculasSeries.pdb
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Microsoft.OpenApi.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\PeliculasSeries.csproj.AssemblyReference.cache
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\PeliculasSeries.GeneratedMSBuildEditorConfig.editorconfig
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\PeliculasSeries.AssemblyInfoInputs.cache
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\PeliculasSeries.AssemblyInfo.cs
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\PeliculasSeries.csproj.CoreCompileInputs.cache
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\PeliculasSeries.MvcApplicationPartsAssemblyInfo.cs
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\PeliculasSeries.MvcApplicationPartsAssemblyInfo.cache
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\staticwebassets\PeliculasSeries.StaticWebAssets.Manifest.cache
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\staticwebassets\PeliculasSeries.StaticWebAssets.xml
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\scopedcss\bundle\PeliculasSeries.styles.css
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\PeliculasSeries.RazorTargetAssemblyInfo.cache
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\PeliculasSeries.csproj.CopyComplete
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\PeliculasSeries.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\ref\PeliculasSeries.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\PeliculasSeries.pdb
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\obj\Debug\net5.0\PeliculasSeries.genruntimeconfig.cache
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Humanizer.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Microsoft.Identity.Client.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\Newtonsoft.Json.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\System.Runtime.Caching.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\Usuario\Escritorio\Challenge C#.Net\PeliculasSeries\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/appsettings.Development.json
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/appsettings.json
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/PeliculasSeries.exe
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/PeliculasSeries.deps.json
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/PeliculasSeries.runtimeconfig.json
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/PeliculasSeries.runtimeconfig.dev.json
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/PeliculasSeries.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/ref/PeliculasSeries.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/PeliculasSeries.pdb
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Microsoft.OpenApi.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/PeliculasSeries.csproj.AssemblyReference.cache
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/PeliculasSeries.GeneratedMSBuildEditorConfig.editorconfig
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/PeliculasSeries.AssemblyInfoInputs.cache
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/PeliculasSeries.AssemblyInfo.cs
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/PeliculasSeries.csproj.CoreCompileInputs.cache
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/PeliculasSeries.MvcApplicationPartsAssemblyInfo.cs
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/PeliculasSeries.MvcApplicationPartsAssemblyInfo.cache
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/staticwebassets/PeliculasSeries.StaticWebAssets.Manifest.cache
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/staticwebassets/PeliculasSeries.StaticWebAssets.xml
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/scopedcss/bundle/PeliculasSeries.styles.css
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/PeliculasSeries.RazorTargetAssemblyInfo.cache
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/PeliculasSeries.csproj.CopyComplete
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/PeliculasSeries.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/ref/PeliculasSeries.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/PeliculasSeries.pdb
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/obj/Debug/net5.0/PeliculasSeries.genruntimeconfig.cache
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Humanizer.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Microsoft.Data.SqlClient.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Microsoft.Identity.Client.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/Newtonsoft.Json.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/System.Runtime.Caching.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+D:/Usuario/Escritorio/Challenge C#.Net/PeliculasSeries/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/appsettings.Development.json
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/appsettings.json
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/PeliculasSeries
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/PeliculasSeries.deps.json
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/PeliculasSeries.runtimeconfig.json
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/PeliculasSeries.runtimeconfig.dev.json
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/PeliculasSeries.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/ref/PeliculasSeries.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/PeliculasSeries.pdb
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Humanizer.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Microsoft.Data.SqlClient.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Microsoft.Identity.Client.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Newtonsoft.Json.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/System.Runtime.Caching.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/PeliculasSeries.csproj.AssemblyReference.cache
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/PeliculasSeries.GeneratedMSBuildEditorConfig.editorconfig
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/PeliculasSeries.AssemblyInfoInputs.cache
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/PeliculasSeries.AssemblyInfo.cs
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/PeliculasSeries.csproj.CoreCompileInputs.cache
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/PeliculasSeries.MvcApplicationPartsAssemblyInfo.cs
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/PeliculasSeries.MvcApplicationPartsAssemblyInfo.cache
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/staticwebassets/PeliculasSeries.StaticWebAssets.Manifest.cache
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/staticwebassets/PeliculasSeries.StaticWebAssets.xml
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/scopedcss/bundle/PeliculasSeries.styles.css
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/PeliculasSeries.RazorTargetAssemblyInfo.cache
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/PeliculasSeries.csproj.CopyComplete
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/PeliculasSeries.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/ref/PeliculasSeries.dll
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/PeliculasSeries.pdb
+/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/Debug/net5.0/PeliculasSeries.genruntimeconfig.cache
