@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 using peliculasDisney.Data;
+using PeliculasSeries.Data;
 
 namespace PeliculasSeries
 {
@@ -33,6 +34,7 @@ namespace PeliculasSeries
                 Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddControllers();
+            services.AddScoped<IApiRepository, ApiRepository>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PeliculasSeries", Version = "v1" });
