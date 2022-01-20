@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/PeliculasSeries.csproj": {}
+    "D:\\Usuario\\Escritorio\\Challenge C#.Net\\PeliculasSeries\\PeliculasSeries.csproj": {}
   },
   "projects": {
-    "/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/PeliculasSeries.csproj": {
+    "D:\\Usuario\\Escritorio\\Challenge C#.Net\\PeliculasSeries\\PeliculasSeries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/PeliculasSeries.csproj",
+        "projectUniqueName": "D:\\Usuario\\Escritorio\\Challenge C#.Net\\PeliculasSeries\\PeliculasSeries.csproj",
         "projectName": "PeliculasSeries",
-        "projectPath": "/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/PeliculasSeries.csproj",
-        "packagesPath": "/home/arielperez/.nuget/packages/",
-        "outputPath": "/home/arielperez/Escritorio/Alkemy/Peliculas-y-series-de-disney/obj/",
+        "projectPath": "D:\\Usuario\\Escritorio\\Challenge C#.Net\\PeliculasSeries\\PeliculasSeries.csproj",
+        "packagesPath": "C:\\Users\\ariel perez\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuario\\Escritorio\\Challenge C#.Net\\PeliculasSeries\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/arielperez/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ariel perez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,7 +50,15 @@
               "target": "Package",
               "version": "[5.0.13, )"
             },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.13, )"
             },
@@ -75,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

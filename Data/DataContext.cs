@@ -12,9 +12,7 @@ namespace peliculasDisney.Data
 
         public DbSet<Genero> Generos { get; set; }
         public DbSet<PeliculaSerie> PeliculasSeries { get; set; }
-
-        public DbSet<Personaje> Personajes { get; set; }
-    
+        public DbSet<Personaje> Personajes { get; set; }            
         public DbSet<Usuario> Usuarios { get; set; }
     }
 
