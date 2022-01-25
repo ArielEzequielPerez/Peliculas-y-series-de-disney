@@ -21,7 +21,7 @@ namespace PeliculasSeries.Controllers
             var Peliculas = await _Repository.GetPersonajesAsync();
             return Ok(Peliculas);
         }
-
+        
         [HttpPost]
         public async Task<IActionResult> Post(PeliculaSerie PeliculasSerie)
         {
@@ -31,6 +31,8 @@ namespace PeliculasSeries.Controllers
 
             return BadRequest();
         }
+
+
 
     }
 }

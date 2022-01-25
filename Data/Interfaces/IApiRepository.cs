@@ -14,11 +14,10 @@ namespace peliculasDisney.Data
         Task<IEnumerable<Usuario>> GetUsuariosAsync();
         Task<IEnumerable<Personaje>> GetPersonajesAsync();
         Task<IEnumerable<PeliculaSerie>> GetPeliculaSeriesAsync();
-        Task<Personaje> GetPersonajesByNombreAsync(string Nombre);
-        Task<Personaje> GetPersonajeByEdadAsync(int Edad);
+        
+        Task<Personaje> GetPersonajeByIdAsync(int Id);
+        Task<Personaje> GetPersonajeByEdadAsync(int Age);
         Task<Usuario> GetUsuarioByIdAsync (int id);
-        Task<Usuario> GetUsuarioByNombreAsync(string Nombre);
-
-
+        Task<Usuario> GetUsuarioByNombreAsync(string Name);
     }
 }

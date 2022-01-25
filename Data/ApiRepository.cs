@@ -1,9 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using peliculasDisney.Data;
 using peliculasDisney.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 
@@ -30,12 +28,12 @@ namespace PeliculasSeries.Data
 
         public async Task<IEnumerable<Genero>> GetGenerosByIdAsync()
         {
-            return  await _context.Generos.ToListAsync();            
+            return await _context.Generos.ToListAsync();
         }
 
         public async Task<IEnumerable<PeliculaSerie>> GetPeliculaSeriesAsync()
         {
-            return await _context.PeliculasSeries.ToListAsync();            
+            return await _context.PeliculasSeries.ToListAsync();
         }
 
         public async Task<Personaje> GetPersonajeByEdadAsync(int Edad)
@@ -48,9 +46,10 @@ namespace PeliculasSeries.Data
             return await _context.Personajes.ToListAsync();
         }
 
-        public async Task<Personaje> GetPersonajesByNombreAsync(string Nombre)
+        public async Task<Personaje> GetPersonajeByIdAsync(int Id)
         {
-            return await _context.Personajes.FirstOrDefaultAsync(UnPersonaje => UnPersonaje.Nombre == Nombre); 
+            var UnPersonaje = await _context.Personajes.FirstOrDefaultAsync(UnPersonaje => UnPersonaje.Id == Id);
+            return UnPersonaje;
         }
 
         public async Task<Usuario> GetUsuarioByIdAsync(int id)
@@ -73,6 +72,5 @@ namespace PeliculasSeries.Data
             return await _context.SaveChangesAsync() > 0;
         }
     }
-
        
 }
