@@ -7,29 +7,30 @@ namespace PeliculasSeries.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class PersonajeController : Controller
+    public class PelisculasSeriesController : Controller
     {
         private readonly IApiRepository _Repository;
-        public PersonajeController(IApiRepository Repository)
+        public PelisculasSeriesController(IApiRepository Repository)
         {
             _Repository = Repository;
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get() 
+        public async Task<IActionResult> Get()
         {
-            var Personajes = await _Repository.GetPersonajesAsync();
-            return Ok(Personajes);
+            var Peliculas = await _Repository.GetPersonajesAsync();
+            return Ok(Peliculas);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(Personaje Personaje)
+        public async Task<IActionResult> Post(PeliculaSerie PeliculasSerie)
         {
-            _Repository.Add(Personaje);
+            _Repository.Add(PeliculasSerie);
             if (await _Repository.SaveAll())
-                return Ok(Personaje);
+                return Ok(PeliculasSerie);
 
             return BadRequest();
         }
+
     }
 }
