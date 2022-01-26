@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace peliculasDisney.Models
 {
-    public class PeliculaSerie : IdBase
+    public class Movie : IdBase
     {       
         [Required(ErrorMessage = "ingrese una fecha valida")]
         [Display(Name = "Fecha")]        
@@ -17,7 +17,7 @@ namespace peliculasDisney.Models
         public int Calificacion { get; set; }
         public byte [] Imagen { get; set; }
 
-        public List<Personaje> Personajes { get; set; }
+        public List<Character> Personajes { get; set; }
 
 
     }

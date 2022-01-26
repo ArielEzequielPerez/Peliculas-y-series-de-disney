@@ -2,6 +2,7 @@
 using peliculasDisney.Data;
 using peliculasDisney.Models;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 
@@ -26,46 +27,62 @@ namespace PeliculasSeries.Data
             _context.Remove(entity);
         }
 
-        public async Task<IEnumerable<Genero>> GetGenerosByIdAsync()
+        public async Task<IEnumerable<Genero>> GetGenerosAsync()
         {
             return await _context.Generos.ToListAsync();
         }
+       
 
-        public async Task<IEnumerable<PeliculaSerie>> GetPeliculaSeriesAsync()
+        public async Task<IEnumerable<Movie>> GetMoviesAsync()
         {
-            return await _context.PeliculasSeries.ToListAsync();
+            return await _context.Movies.ToListAsync();
+        }
+        public async Task<Movie> GetMovieByIdAsync(int Id)
+        {
+            return await _context.Movies.FirstOrDefaultAsync(Movie => Movie.Id == Id);
         }
 
-        public async Task<Personaje> GetPersonajeByEdadAsync(int Edad)
+
+        public async Task<IEnumerable<Character>> GetCharactersAsync()
         {
-            return await _context.Personajes.FirstOrDefaultAsync(UnPersonaje => UnPersonaje.Edad == Edad);
+            var personajes = await _context.Characters.Select(unPersonaje => new Character{ Nombre = unPersonaje.Nombre, Imagen = unPersonaje.Imagen}).ToListAsync();
+            return personajes;
         }
 
-        public async Task<IEnumerable<Personaje>> GetPersonajesAsync()
+        public async Task<Character> GetCharacterByIdAsync(int Id)
         {
-            return await _context.Personajes.ToListAsync();
+            return await _context.Characters.FirstOrDefaultAsync(UnPersonaje => UnPersonaje.Id == Id);
+            
+        }
+        public async Task<Character> GetCharacterByName(string Name)
+        {
+            return await _context.Characters.FirstOrDefaultAsync(Personaje => Personaje.Nombre == Name);
         }
 
-        public async Task<Personaje> GetPersonajeByIdAsync(int Id)
+        public async Task<Character> GetCharacterByAgeAsync(int Age)
         {
-            var UnPersonaje = await _context.Personajes.FirstOrDefaultAsync(UnPersonaje => UnPersonaje.Id == Id);
-            return UnPersonaje;
+            return await _context.Characters.FirstOrDefaultAsync(Personaje => Personaje.Edad == Age);
         }
 
-        public async Task<Usuario> GetUsuarioByIdAsync(int id)
+     
+
+        public async Task<User> GetUserByIdAsync(int id)
         {
-            return  await _context.Usuarios.FirstOrDefaultAsync(Usuario => Usuario.Id== id);  
+            return  await _context.Users.FirstOrDefaultAsync(User => User.Id== id);  
         }
 
-        public async Task<Usuario> GetUsuarioByNombreAsync(string Nombre)
+        public async Task<User> GetUserByNameAsync(string Name)
         {
-            return await _context.Usuarios.FirstOrDefaultAsync(Usuario => Usuario.Nombre == Nombre);
+            return await _context.Users.FirstOrDefaultAsync(Usuario => Usuario.Nombre == Name);
         }
 
-        public async Task<IEnumerable<Usuario>> GetUsuariosAsync()
+        public async Task<IEnumerable<User>> GetUsersAsync()
         {
-            return await _context.Usuarios.ToListAsync();
+            return await _context.Users.ToListAsync();
         }
+        
+
+        
 
         public async Task<bool> SaveAll()
         {

@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace peliculasDisney.Models
 {
-    public class Personaje : IdBase
+    public class Character : IdBase
     {
         [Required(ErrorMessage = "ingrese una edad")]
         [Display(Name = "Edad")]
@@ -20,7 +20,7 @@ namespace peliculasDisney.Models
 
         [Required(ErrorMessage = "ingrese una imagen")]
         public byte [] Imagen { get; set; }
-        public List<PeliculaSerie> PeliculasSeries {get; set;}
+        public List<Movie> PeliculasSeries {get; set;}
 
          
     }

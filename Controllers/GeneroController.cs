@@ -21,8 +21,8 @@ namespace PeliculasSeries.Controllers
         [HttpGet("Get")]
         public async Task<IActionResult> Get()
         {
-            var peliculasSeries = await _Repository.GetPeliculaSeriesAsync();
-            return Ok(peliculasSeries);
+            var Genero = await _Repository.GetGenerosAsync();
+            return Ok(Genero);
         }
 
         [HttpPost("Post")]

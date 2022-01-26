@@ -7,7 +7,7 @@ namespace peliculasDisney.Models
 {
     public class Genero : IdBase 
     {
-        List<PeliculaSerie> PeliculasSeries { get; set; }
+        List<Movie> PeliculasSeries { get; set; }
 
     }
 }

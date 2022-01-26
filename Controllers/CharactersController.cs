@@ -7,10 +7,10 @@ namespace PeliculasSeries.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class PersonajeController : Controller
+    public class CharactersController : Controller
     {
         private readonly IApiRepository _Repository;
-        public PersonajeController(IApiRepository Repository)
+        public CharactersController(IApiRepository Repository)
         {
             _Repository = Repository;
         }
@@ -18,42 +18,48 @@ namespace PeliculasSeries.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var Personajes = await _Repository.GetPersonajesAsync();
+            var Personajes = await _Repository.GetCharactersAsync();
             return Ok(Personajes);
         }
 
+        
+
         [HttpPost]
-        public async Task<IActionResult> Post(Personaje Personaje)
+        public async Task<IActionResult> Post(Character Characters)
         {
-            _Repository.Add(Personaje);
+            _Repository.Add(Characters);
             if (await _Repository.SaveAll())
-                return Ok(Personaje);
+                return Ok(Characters);
 
             return BadRequest();
         }
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Personaje>> Get(int id)
-        {
-            var personaje = await _Repository.GetPersonajeByIdAsync(id);
+        
 
-            if (personaje == null)
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Character>> Get(int id)
+        {
+            var Character = await _Repository.GetCharacterByIdAsync(id);
+
+            if (Character == null)
                 return NotFound();
 
 
-            return Ok(personaje);
+            return Ok(Character);
         }
+
         [HttpPut]
-        public async Task<ActionResult> Put(Personaje Personaje)
+        public async Task<ActionResult> Put(Character Character)
         {
-            var characterUpdate = await _Repository.GetPersonajeByIdAsync(Personaje.Id);
+            var characterUpdate = await _Repository.GetCharacterByIdAsync(Character.Id);
 
             if (characterUpdate == null)
                 return NotFound("Personaje no encontrado");
 
-            characterUpdate.Nombre = Personaje.Nombre;
-            characterUpdate.Edad = Personaje.Edad;
-            characterUpdate.Historia = Personaje.Historia;
-            characterUpdate.Imagen = Personaje.Imagen;
+            characterUpdate.Nombre = Character.Nombre;
+            characterUpdate.Edad = Character.Edad;
+            characterUpdate.Historia = Character.Historia;
+            characterUpdate.Imagen = Character.Imagen;
 
             if (!await _Repository.SaveAll())
                 return NoContent();
@@ -65,10 +71,12 @@ namespace PeliculasSeries.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
-            var character = await _Repository.GetPersonajeByIdAsync(id);
+            var character = await _Repository.GetCharacterByIdAsync(id);
             if (character == null)
                 return NotFound("Personaje no encontrado");
+            
             _Repository.Delete(character);
+            
             if (!await _Repository.SaveAll())
                 return BadRequest("no se pudo eliminar el personaje");
 
