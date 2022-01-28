@@ -47,20 +47,27 @@ namespace PeliculasSeries.Data
 
         }
 
-        public async Task<User> Register(User Email, string Password)
+        public async Task<User> Register(User User, string Password)
         {
             byte[] passwordHash, passwordSalt;
             CreatePasswordHash(Password, out passwordHash, out passwordSalt);
 
-            Email.PasswordHash = passwordHash;
-            Email.PasswordSalt = passwordSalt;
+            User.PasswordHash = passwordHash;
+            User.PasswordSalt = passwordSalt;
 
-            await _context.Users.AddAsync(Email);
+            await _context.Users.AddAsync(User);
             await _context.SaveChangesAsync();
 
-            return Email;
+            return User;
         }
 
-
+        private void CreatePasswordHash(string Password, out byte[] passwordHash, out byte[] passwordSalt)
+        {
+            using (var Hmac = new System.Security.Cryptography.HMACSHA512())
+            {
+                passwordSalt = Hmac.Key;
+                passwordHash = Hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(Password));
+            }
+        }
     }
 }

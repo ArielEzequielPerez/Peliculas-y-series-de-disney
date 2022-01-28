@@ -1,3 +1,4 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 using peliculasDisney.Models;
 
@@ -10,6 +11,9 @@ namespace PeliculasSeries{
 
         [Required]
         [Display(Name = "Contraseña")]
+
+        public bool Active { get; set; }
+        public DateTime DischargeDate { get; set; }
         public byte [] PasswordHash { get; set; }
         public byte [] PasswordSalt { get; set; }
 

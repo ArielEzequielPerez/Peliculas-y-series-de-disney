@@ -14,6 +14,12 @@ using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 using peliculasDisney.Data;
 using PeliculasSeries.Data;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using PeliculasSeries.Service;
+using PeliculasSeries.Services.Interface;
+using PeliculasSeries.Mapper;
 
 namespace PeliculasSeries
 {
@@ -29,6 +35,8 @@ namespace PeliculasSeries
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
+            services.AddScoped<ITokenServices, TokenService>();
             services.AddDbContext<DataContext>(options =>
             options.UseSqlServer(
                 Configuration.GetConnectionString("DefaultConnection")));
@@ -39,6 +47,21 @@ namespace PeliculasSeries
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PeliculasSeries", Version = "v1" });
             });
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(
+                            Encoding.UTF8.GetBytes(Configuration ["KeyToken"])) ,
+                            ValidateIssuer = false,
+                            ValidateAudience = false                 
+                    };
+                });
+
+                
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PeliculasSeries.Data.Interfaces
 {
-    interface IAuthRepository
+    public interface IAuthRepository
     {
         Task<User> Login(string Username, string Password);
         Task<User> Register(User Email, string Password);
