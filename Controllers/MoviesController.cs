@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using peliculasDisney.Data;
 using peliculasDisney.Models;
+using PeliculasSeries.Dto;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace PeliculasSeries.Controllers
@@ -19,7 +21,8 @@ namespace PeliculasSeries.Controllers
         public async Task<IActionResult> Get()
         {
             var Movies = await _Repository.GetMoviesAsync();
-            return Ok(Movies);
+            var MovieDto = Movies.Select(AMovie => new MovieCreateDto { Name = AMovie.Name, Image = AMovie.Image, Date = AMovie.Date }).ToList();
+            return Ok(MovieDto);
         }
         
         [HttpPost]
@@ -32,9 +35,10 @@ namespace PeliculasSeries.Controllers
             return BadRequest();
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("id")]
         public async Task<ActionResult<Character>> Get(int id)
         {
+            
             var movie = await _Repository.GetMovieByIdAsync(id);
 
             if (movie == null)
@@ -43,17 +47,20 @@ namespace PeliculasSeries.Controllers
 
             return Ok(movie);
         }
-        [HttpPut]
-        public async Task<ActionResult> Put(Movie Movie)
+        [HttpPut("Id")]
+        public async Task<ActionResult> Put(int Id ,MovieCreateDto MovieDto)
         {
-            var movieUpdate = await _Repository.GetMovieByIdAsync(Movie.Id);
+            if (Id != MovieDto.Id)
+                return BadRequest("Los id no coinciden");
+
+            var movieUpdate = await _Repository.GetMovieByIdAsync(MovieDto.Id);
 
             if (movieUpdate == null)
                 return NotFound("Pelicula no encontrada");
 
-            movieUpdate.Nombre = Movie.Nombre;
-            movieUpdate.Calificacion = Movie.Calificacion;
-            movieUpdate.Imagen = Movie.Imagen;
+            movieUpdate.Name = MovieDto.Name;
+            movieUpdate.Ranking = MovieDto.Ranking;
+            movieUpdate.Image = MovieDto.Image;
 
             if (!await _Repository.SaveAll())
                 return NoContent();
@@ -62,7 +69,7 @@ namespace PeliculasSeries.Controllers
 
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("id")]
         public async Task<IActionResult> Delete(int id)
         {
             var movie = await _Repository.GetMovieByIdAsync(id);
@@ -78,5 +85,40 @@ namespace PeliculasSeries.Controllers
             return Ok();
         }
 
+        [HttpGet("Name")]
+        public async Task<IActionResult> SearchMovieByName(string Name)
+        {
+            var Movie = await _Repository.GetMovieByNameAsync(Name);
+            if (Movie == null)
+                return NotFound();
+
+            return Ok(Movie);
+        }
+
+        [HttpGet("IdGenero")]
+        public async Task<IActionResult> SearchMovieByIdGenero(int IdGenero)
+        {
+            var Movie = await _Repository.GetMovieByIdGeneroAsync(IdGenero);
+            if (Movie == null)
+                return NotFound();
+
+            return Ok(Movie);
+        }
+
+
+        [HttpGet("Order")]
+        public async Task<IActionResult> SearchMovieByOrderBy(string Order)
+        {
+            var Movie = await _Repository.GetMovieByOrderByDescAsync(Order);
+            if (Order == "Asc")
+                Movie = await _Repository.GetMovieByOrderByAscAsync(Order);
+            
+            if (Movie == null)
+                return NotFound();
+
+            return Ok(Movie);
+        }
+
+        
     }
 }

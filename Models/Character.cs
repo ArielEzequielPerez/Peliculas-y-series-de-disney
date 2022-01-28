@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace peliculasDisney.Models
@@ -10,17 +7,17 @@ namespace peliculasDisney.Models
     {
         [Required(ErrorMessage = "ingrese una edad")]
         [Display(Name = "Edad")]
-        public int Edad { get; set; }
+        public int Age { get; set; }
 
         [Display(Name = "ingrese un peso")]
-        public int Peso { get; set; }
+        public int Weight { get; set; }
 
         [Display(Name = "una breve historia")]
-        public string Historia { get; set; }
+        public string History { get; set; }
 
         [Required(ErrorMessage = "ingrese una imagen")]
-        public byte [] Imagen { get; set; }
-        public List<Movie> PeliculasSeries {get; set;}
+        public string Image { get; set; }
+        public List<Movie> Movies{get; set;}
 
          
     }

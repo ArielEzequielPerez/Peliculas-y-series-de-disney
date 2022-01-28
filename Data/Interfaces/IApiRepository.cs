@@ -14,9 +14,16 @@ namespace peliculasDisney.Data
         Task<IEnumerable<Character>> GetCharactersAsync();
         Task<IEnumerable<Movie>> GetMoviesAsync();
         
-        Task<Character> GetCharacterByName(string Name);
+        Task<IEnumerable<Character>> GetCharacterByName(string Name);
+        Task<IEnumerable<Character>> GetCharacterByAgeAsync(int Age);
+        Task<IEnumerable<Character>> GetCharacterByMovie(int IdMovie);
+
+        Task<IEnumerable<Movie>> GetMovieByNameAsync(string Name);
+        Task<IEnumerable<Movie>>GetMovieByIdGeneroAsync(int Id);
+        Task<IEnumerable<Movie>> GetMovieByOrderByDescAsync(string OrderBy);
+        Task<IEnumerable<Movie>> GetMovieByOrderByAscAsync(string OrderBy);
+        Task<Genero> GetGeneroByIdAsync(int Id);
         Task<Character> GetCharacterByIdAsync(int Id);
-        Task<Character> GetCharacterByAgeAsync(int Age);
         Task<Movie> GetMovieByIdAsync(int Id);
 
         Task<IEnumerable<User>> GetUsersAsync();

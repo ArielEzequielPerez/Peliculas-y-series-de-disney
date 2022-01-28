@@ -10,7 +10,8 @@ namespace PeliculasSeries{
 
         [Required]
         [Display(Name = "Contraseña")]
-        public string Contrasenia { get; set; }
+        public byte [] PasswordHash { get; set; }
+        public byte [] PasswordSalt { get; set; }
 
     }
 }

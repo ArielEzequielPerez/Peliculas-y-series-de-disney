@@ -10,15 +10,14 @@ namespace peliculasDisney.Models
     {       
         [Required(ErrorMessage = "ingrese una fecha valida")]
         [Display(Name = "Fecha")]        
-        public DateTime Fecha { get; set; }
+        public DateTime Date { get; set; }
 
         [Required(ErrorMessage = "ingrese una calificacion")]
         [Display(Name = "Calificacion(1-10)")]
-        public int Calificacion { get; set; }
-        public byte [] Imagen { get; set; }
+        public int Ranking { get; set; }
+        public string Image { get; set; }
 
-        public List<Character> Personajes { get; set; }
-
+        public List<Character> Characters { get; set; }
 
     }
 }

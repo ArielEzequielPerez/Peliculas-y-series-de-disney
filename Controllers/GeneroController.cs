@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using peliculasDisney.Data;
 using peliculasDisney.Models;

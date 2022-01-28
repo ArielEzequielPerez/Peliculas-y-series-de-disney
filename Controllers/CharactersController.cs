@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using peliculasDisney.Data;
 using peliculasDisney.Models;
+using PeliculasSeries.Dto;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace PeliculasSeries.Controllers
@@ -36,16 +38,16 @@ namespace PeliculasSeries.Controllers
         
 
 
-        [HttpGet("{id}")]
+        [HttpGet("id")]
         public async Task<ActionResult<Character>> Get(int id)
         {
-            var Character = await _Repository.GetCharacterByIdAsync(id);
+            var CharacterById = await _Repository.GetCharacterByIdAsync(id);
 
-            if (Character == null)
+            if (CharacterById == null)
                 return NotFound();
 
 
-            return Ok(Character);
+            return Ok(CharacterById);
         }
 
         [HttpPut]
@@ -56,10 +58,10 @@ namespace PeliculasSeries.Controllers
             if (characterUpdate == null)
                 return NotFound("Personaje no encontrado");
 
-            characterUpdate.Nombre = Character.Nombre;
-            characterUpdate.Edad = Character.Edad;
-            characterUpdate.Historia = Character.Historia;
-            characterUpdate.Imagen = Character.Imagen;
+            characterUpdate.Name = Character.Name;
+            characterUpdate.Age = Character.Age;
+            characterUpdate.History = Character.History;
+            characterUpdate.Image = Character.Image;
 
             if (!await _Repository.SaveAll())
                 return NoContent();
@@ -68,7 +70,7 @@ namespace PeliculasSeries.Controllers
 
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("id")]
         public async Task<ActionResult> Delete(int id)
         {
             var character = await _Repository.GetCharacterByIdAsync(id);
@@ -82,6 +84,37 @@ namespace PeliculasSeries.Controllers
 
             return Ok("Personaje borrado");
         }
+
+        [HttpGet("Name")]
+        public async Task<IActionResult> SearchCharacterByName(string Name)
+        {
+            var CharacterByName = await _Repository.GetCharacterByName(Name);
+            if (CharacterByName == null)
+                return NotFound("Personaje no encontrado");
+
+            return Ok(CharacterByName);           
+        }
+        [HttpGet("Age")]
+        public async Task<IActionResult> SearchCharacterByAge(int Age)
+        {
+            var CharacterByAge = await _Repository.GetCharacterByAgeAsync(Age);
+            if (CharacterByAge == null)
+                return NotFound("Personaje no encontrado");
+
+            return Ok(CharacterByAge);
+        }
+
+        [HttpGet("IdMovie")]
+        public async Task<IActionResult> SearchCharacterByMovie(int IdMovie)
+        {
+            var CharacterByMovie = await _Repository.GetCharacterByMovie(IdMovie);
+            if (CharacterByMovie == null)
+                return NotFound("Personaje no encontrado");
+
+            return Ok(CharacterByMovie);
+        }
+
+        
         
     }
 }
