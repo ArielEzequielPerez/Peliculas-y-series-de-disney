@@ -106,9 +106,9 @@ namespace PeliculasSeries.Data
             return  await _context.Users.FirstOrDefaultAsync(User => User.Id== id);  
         }
 
-        public async Task<User> GetUserByNameAsync(string Name)
+        public async Task<User> GetUserByEmailAsync(string Email)
         {
-            return await _context.Users.FirstOrDefaultAsync(AUser => AUser.Name == Name);
+            return await _context.Users.FirstOrDefaultAsync(AUser => AUser.Email == Email);
         }
 
         public async Task<IEnumerable<User>> GetUsersAsync()

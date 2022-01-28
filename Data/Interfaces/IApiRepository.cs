@@ -28,6 +28,6 @@ namespace peliculasDisney.Data
 
         Task<IEnumerable<User>> GetUsersAsync();
         Task<User> GetUserByIdAsync (int id);
-        Task<User> GetUserByNameAsync(string Name);
+        Task<User> GetUserByEmailAsync(string Email);
     }
 }

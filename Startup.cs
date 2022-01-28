@@ -20,6 +20,7 @@ using System.Text;
 using PeliculasSeries.Service;
 using PeliculasSeries.Services.Interface;
 using PeliculasSeries.Mapper;
+using PeliculasSeries.Services;
 
 namespace PeliculasSeries
 {
@@ -42,6 +43,7 @@ namespace PeliculasSeries
                 Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddControllers();
+            services.AddTransient<IMailServices, MailServices>();
             services.AddScoped<IApiRepository, ApiRepository>();
             services.AddSwaggerGen(c =>
             {
